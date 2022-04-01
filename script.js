@@ -19,7 +19,7 @@ class Worker {
         return this.tax = procent;
     }*/
     getSalaryNetto(){
-        return this.getSalary - ((this.getSalary*this.tax)/100)
+        return this.getSalary() - ((this.getSalary()*this.tax)/100)
     }
     getName() {
         return this.name;
