@@ -77,6 +77,7 @@ console.log(worker3.getSalary()); //afișează 2112 = 12*176
 console.log("---------Exercitiul 6------")
 var worker4 = new Worker('Ion', 'Creangă', 10, 176);
 console.log(worker4.getSalary()); //afișează 1760 = 10*176
+worker4.increaseHourRate(2);
 worker4.setTax(18); //setează impozitul pe salariu la 18%
 console.log(worker4.getSalaryNetto()); //afișează 2112 – 18% = 1731.84
 
